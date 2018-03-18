@@ -1,0 +1,53 @@
+[
+		{ "name": "Fireball",
+		 "price": 2.95, 
+		 "description": "powerfull ball of fire", 
+		 "power": "high",
+		 "range": "interstellar",
+		 "color": "orange",
+		 "canPurchase": true, 
+		 "soldOut": false,
+		 "images": ["images/bigbang-01-full.png",
+				   "images/bigbang-02-full.png",
+				   "images/bigbang-03-full.png"],
+		 "reviews": [
+					 {
+					 	"stars": 5,
+					 	"body": "I love this product!",
+					 	"author": "joe@thomas.com",
+					 	"createdOn": 1397490980837
+					 },
+					 {
+					 	"stars": 1,
+					 	"body": "This product sucks",
+					 	"author": "tim@hater.com",
+					 	"createdOn": 1397490980838
+					 }
+		 ] },
+		{"name": "Laser Blast",
+		 "price": 5.95,
+		 "description": "blast of laser beams",
+		 "power": "extreme",
+		 "range": "unknown",
+		 "color": "white", 
+		 "canPurchase": true, 
+		 "soldOut": false,
+		 "images": ["images/stupid-01-full.png",
+				   "images/stupid-02-full.png",
+				   "images/stupid-03-full.png"],
+		 "reviews": [
+					 {
+					 	"stars": 5,
+					 	"body": "I love this product!",
+					 	"author": "joe@thomas.com",
+					 	"createdOn": 1397490980837
+					 },
+					 {
+					 	"stars": 1,
+					 	"body": "This product sucks",
+					 	"author": "tim@hater.com",
+					 	"createdOn": 1397490980837
+					 }
+		 ]  }
+
+	]

@@ -1,0 +1,11 @@
+<div class="gallery" id="galleryCont" ng-show="product.images[0]">
+						<div class="img-wrap">
+							<img class="img center-block img-thumbnail img-circle" id="imgFull" ng-src="{{product.images[gallery.current]}}" />
+<br>
+						</div><br>
+							<ul class="img-thumbnails">
+								<li class="small-image img-thumbnail pull-left" ng-repeat="image in product.images" id="thumbsLi">
+									<a href ng-click="gallery.setImage(image)"><img ng-src="{{image}}" id="imgThumb"/></a>
+								</li>
+							</ul>
+					</div>

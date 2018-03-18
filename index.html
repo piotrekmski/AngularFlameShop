@@ -1,0 +1,37 @@
+<DOCTYPE html>
+<html ng-app="store">
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Mina" rel="stylesheet">
+	</head>	
+<body ng-controller="StoreController as store">
+		<!-- Header -->
+		<header>
+
+			<div style="width: 100%; text-align: center"><img src="./images/flame3.png" style="margin-top: 5px;"></div>
+      		<h3 class="text-center">- an Angular store -</h3>
+    	</header>
+	<!-- Product Container -->
+	<div class="list-group">
+		
+		<div class="row list-group-item" id="productCont" ng-repeat="product in store.products">
+			<div ng-hide="product.soldOut">
+				<!--h1 ng-include="'product-title.html'"></h1-->
+				<product-title></product-title>
+					
+					<!-- Image Gallery -->
+					<product-gallery></product-gallery>
+					<!-- Product tabs -->
+					<product-tabs></product-tabs>
+					<br>
+
+					<button class="pull-right" ng-show="product.canPurchase">Add to cart</button><br><br><br>
+			</div>
+		</div>
+	</div>
+<script type="text/javascript" src="js/angular.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="js/products.js"></script>
+</body>
+</html>

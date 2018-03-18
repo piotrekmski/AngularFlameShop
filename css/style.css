@@ -1,0 +1,46 @@
+body {
+	background-color: #e6f9ff;
+}
+
+.ng-invalid.ng-dirty {
+	border-color: #FA787E;
+}
+
+h3,h1 {
+	font-family: 'Mina', sans-serif;
+}
+
+.ng-valid.ng-dirty {
+	border-color: #78fa89;
+}
+
+#productCont {
+	padding: 0 25px 0 25px; 
+	width: 550px; 
+	margin: 0 auto;
+	box-shadow: 5px 10px 18px #888888;
+}
+
+#navCont {
+	margin:0 20px 20px 0
+}
+
+#galleryCont {
+	text-align: center;
+}
+
+#imgFull {
+	width: 400px;
+}
+
+#thumbsLi {
+	margin: 0px 10px 30px 10px;
+}
+
+#imgThumb {
+	width: 110px;
+}
+#tabsX {
+	
+	color: red;
+}
