@@ -8,7 +8,7 @@ app.controller('StoreController', ['$http', function($http){
     $http.get('products.json').success(function(data){
     store.products = data;
     });
-    $http.post('products.json', {revievs:'value'}); 
+   
   }]);
 
 app.controller('ReviewController', function(){
